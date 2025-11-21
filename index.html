@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exaucé web</title>
+    <link rel="stylesheet" href="style.css"
+</head>
+<body>
+
+    <!-- PAGE 1 -->
+    <div id="page1" class="page active">
+        <h1>Accueil</h1>
+
+        <button onclick="goToPage('page2')">➡️</button>
+        
+        <h3>Portfolio et sites</h3>
+        <p>Découvrez des exemples de sites crée par Exaucé en plus d'autres encore plus variés
+        </p>
+        <h1>😜</h1>
+    </div>
+
+    <!-- PAGE 2 -->
+    <div id="page2" class="page">
+        <h1>Nos liens</h1>
+
+        <button onclick="goToPage('page1')">⬅️</button>
+        <div class="cont">
+            <iframe src="https://exau2010.github.io/Exauc-"></iframe>
+            <iframe src="https://www.youtube.com/embed/k01Wve4Rv80"frameborder="0"allow="accelerometer; autoplay; clipboard‑write; encrypte
+            d-media; gyroscope; picture-in-picture"allowfullscreen></iframe>
+            <iframe src="https://www.youtube.com/embed/fmV2HVmqPFc"frameborder="0"allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"allowfullscreen></iframe>
+            <iframe src="https://www.youtube.com/embed/mImFz8mkaHo"frameborder="0"allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"allowfullscreen>
+                
+            </iframe>
+
+            <iframe src="https://www.youtube.com/embed/8oUdVpZHePk"frameborder="0"allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"allowfullscreen></iframe>
+            <iframe 
+  src="https://www.youtube.com/embed/5d3yvnFvEKQ"
+  frameborder="0"
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+  allowfullscreen>
+</iframe>
+
+
+  
+        </div>
+        <div class="frame"><h1>Merci de visitez notre site, je voudrais remercier:
+        <ul>
+            <li>Nadia</li>
+            <li>Doriane</li>
+            <li>Ariel</li>
+            <li>Ange</li>
+            <li>Diallo</li>
+            <li>Salam</li>
+            <li>Amarachi</li>
+            <li>Chrisben</li>
+            
+        </ul>
+        </h1>
+        <p>Pour plus d'info contacter moi: <a href="mailto: olaezose@gmail.com">mon e-mail</a>
+        </p></div>
+            
+        
+    </div>
+
+    <script>
+        function goToPage(pageId) {
+            // Cacher toutes les pages
+            document.querySelectorAll('.page').forEach(function(page) {
+                page.classList.remove('active');
+            });
+
+            // Afficher la page demandée
+            document.getElementById(pageId).classList.add('active');
+        }
+    </script>
+
+</body>
+  </html>
