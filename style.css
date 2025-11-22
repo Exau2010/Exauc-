@@ -1,0 +1,86 @@
+body {
+ margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(135deg, #f093fb, #f5576c);
+  color: white;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+ 
+}
+
+.page {
+ display: none; /* On cache toutes les pages au début */
+ 
+}
+
+.active {
+ display: block; /* La page active est visible */
+ 
+}
+
+button {
+ border-radius: 10px;
+ border: black;
+ margin: 20px;
+ padding: 10px 20px;
+ margin-top: 20px;
+ font-size: 18px;
+ cursor: pointer;
+ }
+ 
+ 
+
+ 
+ .cont iframe{
+  border-radius: 20px;
+  margin: 8%;
+  margin-top: 20px;
+  font-family: 'Segoe UI', sans-serif;
+  background: white;
+  height: 500px ;
+  border-color: #f093fb;
+  box-shadow: 0 6px 20px black;
+}
+
+.frame {
+ width: 300px;
+ border-radius: 20px;
+ margin-left: 45px;
+ margin-bottom: 20px;
+ margin-top: 20px;
+ font-family: 'Segoe UI', sans-serif;
+ background: linear-gradient(135deg, #f093fb, #f5576c);
+ height: 500px ;
+ border-color: #f093fb;
+ box-shadow: 0 6px 20px black
+ 
+}
+.frame h1{
+ color: black;
+ font-family: 'Segoe UI', sans-serif;
+ font-size: 20px;
+ padding-top: 20px;
+ padding: 5px;
+ background: linear-gradient(135deg, #f5576c, #f093fb);
+}
+
+h2 {
+ margin-top: 90px;
+ color: black;
+ background: linear-gradient(135deg, #f5576c, #f093fb);
+}
+
+h4 {
+ color: #2c3e50;
+}
+a{
+ color: black;
+}
+
+.b {
+ margin-top:100%;
+ bottom: 100%;
+}
